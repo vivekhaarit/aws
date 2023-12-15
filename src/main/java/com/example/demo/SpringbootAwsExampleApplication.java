@@ -11,7 +11,8 @@ public class SpringbootAwsExampleApplication {
 	
 	@GetMapping("/")
 	public String home() {
-		return "welcome to aws, i'm from the jar that you created.";
+		String message = "welcome to aws, i'm from the jar that you created.";
+		return message;
 	}
 
 	public static void main(String[] args) {
