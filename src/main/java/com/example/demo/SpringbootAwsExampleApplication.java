@@ -11,7 +11,6 @@ public class SpringbootAwsExampleApplication {
 	
 	@GetMapping("/")
 	public String home() {
-		//testing webhook
 		String message = "welcome to aws, i'm from the jar that you created.";
 		return message;
 	}
